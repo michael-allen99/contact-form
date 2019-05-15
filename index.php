@@ -20,13 +20,13 @@
     </div>
 
     <form action="contactform.php" method="post">
-        <input type="text" name="name" id="name" placeholder="Your Name">
-        <input type="text" name="email" id="email" placeholder="Your Email">
-        <input type="text" name="subject" id="subject" placeholder="Subject">
-        <textarea name="message" id="message" cols="100" rows="10" placeholder="Let's Chat!"></textarea>
-        <button class="btn-lg badge-primary">Send E-Mail</button>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+        <textarea name="message" id="message" cols="100" rows="10" placeholder="Let's Chat!" required></textarea>
+        <button class="btn-lg badge-primary" name="submit">Send E-Mail</button>
     </form>
-TEST
+
 
 
 <!--Boostrap JS Requirements (jQuery, Popper and BS.js)-->
