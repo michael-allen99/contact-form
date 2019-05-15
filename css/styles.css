@@ -1,0 +1,36 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 3px solid #ef2e51;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px #780013;
+}
+
+form input:hover, form textarea:hover {
+    border-color: #780013;
+    box-shadow: none;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    background-color: #f69a8a;
+    color: #ffffff;
+}
+::placeholder {
+    color: #f66f90;
+}
+
+.pageheading {
+    color: white;
+    text-align: center;
+}
+button {
+    float: right;
+}
