@@ -20,7 +20,10 @@
     </div>
     <?php
     if (isset($_GET['mailsent'])){
+
         echo "<p class='confirmation'>Email sent. I'll be in touch shortly</p>";
+        echo "<div class='underline'></div>";
+
     }
     ?>
     <form action="contactform.php" method="post">
