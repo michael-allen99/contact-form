@@ -18,7 +18,11 @@
             Contact Form
         </h1>
     </div>
-
+    <?php
+    if (isset($_GET['mailsent'])){
+        echo "<p class='confirmation'>Email sent. I'll be in touch shortly</p>";
+    }
+    ?>
     <form action="contactform.php" method="post">
         <input type="text" name="name" id="name" placeholder="Your Name" required>
         <input type="email" name="email" id="email" placeholder="Your Email" required>
@@ -26,7 +30,6 @@
         <textarea name="message" id="message" cols="100" rows="10" placeholder="Let's Chat!" required></textarea>
         <button class="btn-lg badge-primary" name="submit">Send E-Mail</button>
     </form>
-
 
 
 <!--Boostrap JS Requirements (jQuery, Popper and BS.js)-->

@@ -23,8 +23,10 @@ form input:focus, form textarea:focus {
     background-color: #f69a8a;
     color: #ffffff;
 }
-::placeholder {
-    color: #f66f90;
+
+.confirmation {
+    color: #780013;
+    text-align: center;
 }
 
 .pageheading {
